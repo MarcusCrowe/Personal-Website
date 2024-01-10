@@ -1,0 +1,97 @@
+/* Main Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lightgray;
+}
+/* End Main Styles */
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.resume_navbar_link {
+    font-weight: bolder;
+}
+/* End Navbar Styles */
+
+
+/* Home Icon Styles */
+.home_icon_div {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.home_icon {
+    width: 60px;
+}
+/* End Home Icon Styles */
+
+
+/* Resume Styles */
+.resume_img_div {
+    margin: auto;
+}
+
+.resume_img {
+    display: block;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+/* End Resume Styles */
+
+
+/* Footer Styles */
+footer {
+    padding: 30px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.social_logo {
+    width: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+/* End Footer Styles */

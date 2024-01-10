@@ -1,0 +1,140 @@
+/* Main Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(30, 53, 30);
+}
+
+main {
+    padding: 20px;
+}
+/* End Main Styles */
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightgreen;
+}
+
+.contact_navbar_link {
+    font-weight: bolder;
+}
+/* End Navbar Styles */
+
+
+/* Form Styles */
+form {
+    width: 650px;
+    margin: auto;
+    background-color: white;
+    border: none;
+    padding: 50px;
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    form {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .button {
+        margin-bottom: 15px;
+    }
+
+    form h1 {
+        margin: 30px 0px 0px 0px;
+    }
+}
+
+form h1 {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    color: darkgreen;
+}
+
+.form_input {
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 100px;
+    border: 5px solid darkgreen;
+    font-size: 24px;
+}
+
+.form_input::placeholder {
+    color: darkgreen;
+    font-size: 24px;
+}
+
+.button {
+    color: white;
+    background-color: darkgreen;
+    border: none;
+    padding: 30px 95px 30px 95px;
+    font-size: 28px;
+}
+/* End Form Styles */
+
+
+/* Home Icon Styles */
+.home_icon_div {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.home_icon {
+    width: 60px;
+}
+/* End Home Icon Styles */
+
+
+/* Footer Styles */
+footer {
+    padding: 30px;
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+}
+
+.social_logo {
+    width: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+/* End Footer Styles */

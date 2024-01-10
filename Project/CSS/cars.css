@@ -1,0 +1,208 @@
+/* Main Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(203, 233, 243);
+    font-size: 28px;
+}
+
+.img_fit {
+    object-fit: scale-down;
+    height: 1100px;
+}
+
+main {
+    padding: 50px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End Main Styles */
+
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(97, 205, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    width: 100%;
+}
+
+.navbar a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.cars_navbar_link {
+    font-weight: bolder;
+}
+/* End Navbar Styles */
+
+
+/* Home Icon Styles */
+.home_icon_div {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.home_icon {
+    width: 60px;
+}
+/* End Home Icon Styles */
+
+
+/* Kia Div Styles */
+.kia_h2, .miata1_h2, .g35_h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.kia_div img {
+    width: 33%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+/* End Kia Div Styles */
+
+
+/* G35 Div Styles */
+.g35_div {
+    clear: both;
+}
+
+.g35_h2 {
+    text-align: end;
+}
+
+.g35_div img {
+    width: 33%;
+    float: right;
+    margin-left: 20px;
+}
+/* End G35 Dov Styles */
+
+
+/* First Miata Div Styles */
+.miata1_div {
+    clear: both;
+}
+
+.miata1_main_img {
+    float: left;
+    width: 33%;
+    margin-right: 20px;
+}
+
+.miata1_div p {
+    margin-bottom: 108.23px;
+}
+/* End First Miata Div Styles */
+
+
+/* Second Miata Div Styles */
+.miata2_div {
+    clear: both;
+}
+
+.miata2_h2 {
+    text-align: end;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.miata2_main_img {
+    width: 33%;
+    float: right;
+}
+/* End Second Miata Div Styles */
+
+
+/* Third Miata Div Styles */
+.miata3_div {
+    clear: both;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.miata3_h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.miata3_div img {
+    width: 33%;
+    height: 100%;
+    margin-right: 20px;
+    float: left;
+}
+/* End Third Miata Div Styles */
+
+
+/* Media Queries */
+@media(max-width: 1200px) {
+    main {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media(min-width: 1201px) and (max-width:1500px) {
+    main {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media(min-width: 1501px) and (max-width: 1800) {
+    main {
+        width: 50%;
+        margin: auto;
+    }
+}
+/* End Media Queries */
+
+
+/* Footer Styles */
+footer {
+    padding: 30px;
+    background-color: rgb(97, 205, 241);
+    text-align: center;
+    color: white;
+    clear: both;
+}
+
+.social_logo {
+    width: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+/* End Footer Styles */
